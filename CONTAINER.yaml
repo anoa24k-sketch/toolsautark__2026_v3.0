@@ -1,0 +1,43 @@
+# toolsautark CONTAINER.yaml
+# Example deployment configuration
+
+site:
+  name: "toolsautark"
+  version: "2026.1"
+  description: "All-in-One Free Web Toolkit - No tracking, no accounts"
+  author: "Made by Humans with Love • Autarky for Humans"
+  language: "en"
+
+branding:
+  logo: "index.webp"
+  primary_color: "#ff8c00"
+  tagline: "Your All-in-One Free Web Toolkit"
+
+features:
+  - "100% browser-based"
+  - "Works offline after first load"
+  - "Accessible for ages 9 to 99"
+  - "Zero data collection"
+
+tools:
+  - name: "Password Generator"
+    category: "Security"
+  - name: "Image Upscaler"
+    category: "Media"
+  - name: "Unit Converter"
+    category: "Utilities"
+  - name: "Base64 Encoder"
+    category: "Developer"
+
+sponsors:
+  - name: "SimplerLLM MCP Server"
+    url: "https://learnwithhasan.com/simplerllm/mcp/server/"
+
+deployment:
+  type: "static"
+  platform: "render.com, github pages, vercel, netlify"
+  files:
+    - "index.html"
+    - "index.webp"
+    - "CONTAINER.yaml"
+  note: "Just upload these 3 files. No build step required."
